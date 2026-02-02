@@ -22,3 +22,29 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Pasta de compilacao (binarios)
+
+bin/
+
+target/
+
+# Arquivos de metadados do Eclipse
+
+.metadata/
+
+.settings/
+
+.project
+
+.classpath
+
+# Arquivos do VS Code
+
+.vscode/
+
+# Arquivos do sistema e temporários
+
+Thumbs.db
+
+.DS_Store
