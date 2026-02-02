@@ -5,8 +5,7 @@ public class Account {
 	private String holder;
 	private double balance;
 	
-	public Account() {
-	}
+	
 	public Account(int number, String holder) {
 		this.number = number;
 		this.holder = holder;
@@ -18,9 +17,6 @@ public class Account {
 	}
 	public int getNumber() {
 		return number;
-	}
-	public void setNumber(int number) {
-		this.number = number;
 	}
 	public String getHolder() {
 		return holder;
