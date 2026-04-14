@@ -30,6 +30,7 @@ public class Program {
 		Double baseSalary = sc.nextDouble();
 		System.out.print("How many contracts to this worker? ");
 		int n = sc.nextInt();
+		sc.nextLine();
 		
 		Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Department(departmentName));
 		
@@ -59,7 +60,7 @@ public class Program {
 				+ worker.getName()
 				+ "\nDepartment: " 
 				+ worker.getDepartment().getName()
-				+ "\nIncome for " + monthAndYear +": " + worker.income(month, year));
+				+ "\nIncome for " + monthAndYear +": " + String.format(".2f",worker.income(month, year)));
 		
 		sc.close();
 	}
