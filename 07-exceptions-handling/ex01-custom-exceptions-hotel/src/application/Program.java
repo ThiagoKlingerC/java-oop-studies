@@ -43,6 +43,9 @@ public class Program {
 		catch(DomainException e) {
 			System.out.println(e.getMessage());
 		}
+		catch (RuntimeException e) {
+			System.out.println("Unexpected error");
+		}
 		sc.close();
 	
 		}
