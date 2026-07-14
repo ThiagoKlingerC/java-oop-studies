@@ -10,7 +10,7 @@ public class Program {
 
 		String[] lines = new String[] { "Good morning", "Good Afternoon", "Good night" };
 
-		String path = "C:\\temp\\out.txt";
+		String path = "C:\\temp\\" + "outt.txt";
 
 		try (BufferedWriter bw = new BufferedWriter(new FileWriter(path, true))) {
 			for (String line : lines) {
